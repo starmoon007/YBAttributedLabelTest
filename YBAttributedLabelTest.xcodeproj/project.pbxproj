@@ -14,6 +14,7 @@
 		D0B9AE461AF08CAA000FFDB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B9AE451AF08CAA000FFDB0 /* Images.xcassets */; };
 		D0B9AE491AF08CAA000FFDB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B9AE471AF08CAA000FFDB0 /* LaunchScreen.xib */; };
 		D0B9AE551AF08CAB000FFDB0 /* YBAttributedLabelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9AE541AF08CAB000FFDB0 /* YBAttributedLabelTestTests.m */; };
+		D0B9AE601AF08CCF000FFDB0 /* YBAttrbutedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B9AE5F1AF08CCF000FFDB0 /* YBAttrbutedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D0B9AE4E1AF08CAB000FFDB0 /* YBAttributedLabelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAttributedLabelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B9AE531AF08CAB000FFDB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0B9AE541AF08CAB000FFDB0 /* YBAttributedLabelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAttributedLabelTestTests.m; sourceTree = "<group>"; };
+		D0B9AE5E1AF08CCF000FFDB0 /* YBAttrbutedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAttrbutedLabel.h; sourceTree = "<group>"; };
+		D0B9AE5F1AF08CCF000FFDB0 /* YBAttrbutedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAttrbutedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				D0B9AE451AF08CAA000FFDB0 /* Images.xcassets */,
 				D0B9AE471AF08CAA000FFDB0 /* LaunchScreen.xib */,
 				D0B9AE381AF08CAA000FFDB0 /* Supporting Files */,
+				D0B9AE5E1AF08CCF000FFDB0 /* YBAttrbutedLabel.h */,
+				D0B9AE5F1AF08CCF000FFDB0 /* YBAttrbutedLabel.m */,
 			);
 			path = YBAttributedLabelTest;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				D0B9AE411AF08CAA000FFDB0 /* ViewController.m in Sources */,
 				D0B9AE3E1AF08CAA000FFDB0 /* AppDelegate.m in Sources */,
 				D0B9AE3B1AF08CAA000FFDB0 /* main.m in Sources */,
+				D0B9AE601AF08CCF000FFDB0 /* YBAttrbutedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
